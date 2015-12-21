@@ -6,7 +6,13 @@ public class main {
 		// TODO Auto-generated method stub
 
 	}
-	class Question {
+	abstract class Exam{
+		void print(){}
+		
+	}
+	
+	
+	class Question extends Exam{
 		   String description;
 		   public Question(String desc) {
 		      this.description = desc;
